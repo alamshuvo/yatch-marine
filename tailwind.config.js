@@ -9,7 +9,7 @@ export default {
       'railway': ['Raleway', 'sans-serif',]
     },
     colors: {
-      transparent: 'transparent',
+      transparent: '#eff6f8',
       current: '#eaa958',
       hover:'#00abd9',
       'white': '#ffffff',
