@@ -13,10 +13,10 @@ const FilterData = ({filteredData,sortedYachtsData,sortOrder,isOneColumn}) => {
                 <p className='mt-5 text-2xl font-bold'>Number Of Data: {filteredData?.length}</p>
                 <p className='mt-5 text-2xl font-bold'>Shorted Price :{sortOrder}</p>
             </div>
-          <div className={isOneColumn ? 'grid grid-cols-1 gap-5 mt-5' : 'grid lg:grid-cols-2 grid-cols-1 gap-5 mt-5'}>
+          <div className={isOneColumn ? 'grid grid-cols-1 gap-5 mt-5' : 'grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 mt-5'}>
           {
              filteredData && sortOrder && sortedYachtsData?.map(iteam=><div className={isOneColumn?'md:w-[50%] w-full mx-auto':''} key={iteam.id}>
-                <div className=' border border-2-black flex flex-col md:flex-row w-full  p-5 justify-between gap-10 '>
+                <div className=' border border-2-black flex flex-col lg:flex-row w-full  p-5 justify-between gap-10 '>
                     <div className='w-full'><img src={iteam.image} alt="" /></div>
                     <div className='space-y-3'>
                         <h1 className='text-2xl font-bold'>Name:{iteam.name}</h1>
