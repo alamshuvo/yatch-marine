@@ -13,7 +13,10 @@ const Navbar = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className="font-bold hover:text-[#3bc9e2]">
-            <Link to={"/filter"}>Task for filter</Link>
+            <Link to={"/filter"}>Task-3  filter</Link>
+          </li>
+          <li className="font-bold hover:text-[#3bc9e2]">
+            <Link to={"https://66f3c0b8405934ec5a1b455c--nimble-capybara-fd5dbe.netlify.app/"}>Redirect to task 1</Link>
           </li>
         </ul>
       </div>
