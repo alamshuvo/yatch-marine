@@ -13,7 +13,7 @@ const MainLayout = () => {
       <div className="min-h-[100vh]">
         <Outlet></Outlet>
       </div>
-      <div>
+      <div className="mt-32">
         <Footer></Footer>
       </div>
     </div>
