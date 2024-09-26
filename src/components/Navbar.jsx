@@ -15,9 +15,6 @@ const Navbar = () => {
           <li className="font-bold hover:text-[#3bc9e2]">
             <Link to={"/filter"}>Task-3  filter</Link>
           </li>
-          <li className="font-bold hover:text-[#3bc9e2]">
-            <Link to={"https://66f518c79656ac8ff6583281--euphonious-hummingbird-89d6be.netlify.app/"}>Redirect to task 1</Link>
-          </li>
         </ul>
       </div>
     </div>
