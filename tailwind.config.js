@@ -17,8 +17,7 @@ export default {
 
     },
     backgroundImage: {
-      'hero-pattern': "url('https://i.ibb.co.com/1QK8SwD/bg45-2.jpg')",
-      
+      'hero-pattern': "url('https://i.ibb.co.com/1QK8SwD/bg45-2.jpg')",      
     },
     extend: {},
   },

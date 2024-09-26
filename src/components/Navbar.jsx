@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className="font-bold hover:text-[#3bc9e2]">
-            <Link>Task for filter</Link>
+            <Link to={"/filter"}>Task for filter</Link>
           </li>
         </ul>
       </div>
